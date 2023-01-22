@@ -1,0 +1,13 @@
+{
+    "name": "laravelers-academy/first-package",
+    "description": "Ejercicio para la creación de mi primer paquete de PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Homero Raul",
+            "email": "h.raulvc@gmail.com"
+        }
+    ],
+    "require": {}
+}
