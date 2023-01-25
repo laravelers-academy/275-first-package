@@ -9,5 +9,17 @@
             "email": "h.raulvc@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+           "LaravelersAcademy\\FirstPackage\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+           "LaravelersAcademy\\FirstPackage\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }
